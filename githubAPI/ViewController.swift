@@ -12,7 +12,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        GithugAPI.getRepoInfoWithCompletion {
+            (data) in
+            
+            print(data)
+        }
     }
 
     override func didReceiveMemoryWarning() {
