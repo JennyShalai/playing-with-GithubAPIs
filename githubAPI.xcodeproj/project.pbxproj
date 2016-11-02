@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		1BEC883E1DCA436200CC5234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC883D1DCA436100CC5234 /* AppDelegate.swift */; };
-		1BEC88401DCA436200CC5234 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC883F1DCA436200CC5234 /* ViewController.swift */; };
 		1BEC88431DCA436200CC5234 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC88411DCA436200CC5234 /* Main.storyboard */; };
 		1BEC88451DCA436200CC5234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC88441DCA436200CC5234 /* Assets.xcassets */; };
 		1BEC88481DCA436200CC5234 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC88461DCA436200CC5234 /* LaunchScreen.storyboard */; };
 		1BEC88501DCA43F300CC5234 /* GuthubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC884F1DCA43F300CC5234 /* GuthubAPI.swift */; };
+		1BEC88521DCA4BB900CC5234 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC88511DCA4BB900CC5234 /* UserInfo.swift */; };
+		1BEC88541DCA4C1F00CC5234 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC88531DCA4C1F00CC5234 /* DataStore.swift */; };
+		1BEC88561DCA503E00CC5234 /* UsersInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC88551DCA503E00CC5234 /* UsersInfoTableViewController.swift */; };
+		1BEC88581DCA540D00CC5234 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC88571DCA540D00CC5234 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1BEC883A1DCA436100CC5234 /* githubAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = githubAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BEC883D1DCA436100CC5234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1BEC883F1DCA436200CC5234 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1BEC88421DCA436200CC5234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BEC88441DCA436200CC5234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BEC88471DCA436200CC5234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BEC88491DCA436200CC5234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BEC884F1DCA43F300CC5234 /* GuthubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuthubAPI.swift; sourceTree = "<group>"; };
+		1BEC88511DCA4BB900CC5234 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		1BEC88531DCA4C1F00CC5234 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		1BEC88551DCA503E00CC5234 /* UsersInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersInfoTableViewController.swift; sourceTree = "<group>"; };
+		1BEC88571DCA540D00CC5234 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				1BEC883D1DCA436100CC5234 /* AppDelegate.swift */,
-				1BEC883F1DCA436200CC5234 /* ViewController.swift */,
 				1BEC884F1DCA43F300CC5234 /* GuthubAPI.swift */,
+				1BEC88571DCA540D00CC5234 /* TableViewCell.swift */,
+				1BEC88551DCA503E00CC5234 /* UsersInfoTableViewController.swift */,
+				1BEC88511DCA4BB900CC5234 /* UserInfo.swift */,
+				1BEC88531DCA4C1F00CC5234 /* DataStore.swift */,
 				1BEC88411DCA436200CC5234 /* Main.storyboard */,
 				1BEC88441DCA436200CC5234 /* Assets.xcassets */,
 				1BEC88461DCA436200CC5234 /* LaunchScreen.storyboard */,
@@ -140,8 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BEC88521DCA4BB900CC5234 /* UserInfo.swift in Sources */,
 				1BEC88501DCA43F300CC5234 /* GuthubAPI.swift in Sources */,
-				1BEC88401DCA436200CC5234 /* ViewController.swift in Sources */,
+				1BEC88541DCA4C1F00CC5234 /* DataStore.swift in Sources */,
+				1BEC88561DCA503E00CC5234 /* UsersInfoTableViewController.swift in Sources */,
+				1BEC88581DCA540D00CC5234 /* TableViewCell.swift in Sources */,
 				1BEC883E1DCA436200CC5234 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
